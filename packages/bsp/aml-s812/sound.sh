@@ -158,6 +158,9 @@ echo $card
   mixer $card 'Stereo DAC MIXL DAC L1' on
   mixer $card 'Stereo DAC MIXR DAC R1' on
 
+# Amlogic s8xx HDMI
+  mixer $card 'HDMI CTRL SRC' 'I2S'
+
 done
 
 fi
